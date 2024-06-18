@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Seat Booking</title>
+    <!--Google Fonts and Icons-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="js\seatalloc.js"></script>
+    <link rel="stylesheet" href="\seatalloc.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="tickets">
+        <div class="seat-selector">
+          <div class="head">
+            <div class="title">Select Your Seat</div>
+          </div>
+          <div class="seats">
+            <div class="status">
+              <div class="item">Available</div>
+              <div class="item">Booked</div>
+              <div class="item">Selected</div>
+            </div>
+            <div class="all-seats">
+              <input type="checkbox"  name="tickets" id="s1" />
+            </div>
+          </div>
+          <div class="timings">
+            <div class="dates">
+                <label for="WorkDate">Select Date:</label>
+                <input type="date" id="WorkDate" name="WorkDate">
+                <button onclick="generateSeats()">Check Seat Availability</button>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <button type="button">Book</button>
+          <button type="button">Cancel Booking</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    
+  </script>
+</html>
